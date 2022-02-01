@@ -44,8 +44,8 @@ leftbar_author_links: #侧栏作者链接列表
   mcbbs: https://www.mcbbs.net/?3952216
   pcbeta: https://bbs.pcbeta.com/space-uid-4816376
 leftbar_friend_links: #侧栏友链列表
-  AzureZeng: https://azurezeng.com/
-  xjn819: https://blog.xjn819.com/
+  AzureZeng's Blog: https://azurezeng.com/
+  Xjn's Blog: https://blog.xjn819.com/
 #  ccc: /
 show_headindex_number: false #侧栏文章目录是否显示章节编号
 

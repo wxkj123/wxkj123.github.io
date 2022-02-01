@@ -39,20 +39,21 @@ sidebar_announcement: '' #侧栏公告，留空则不显示
 #      首页: /
 sidebar_auther_image: '/assets/img/auther.jpg' #侧栏作者头像
 sidebar_auther_name: 'wxkj321' #侧栏作者名，留空则跟随博客名
+sidebar_author_introduction: '摸鱼党，记录日常碎碎念'
 leftbar_author_links: #侧栏作者链接列表
   github: https://github.com/wxkj123
   mcbbs: https://www.mcbbs.net/?3952216
   pcbeta: https://bbs.pcbeta.com/space-uid-4816376
 leftbar_friend_links: #侧栏友链列表
-  AzureZeng: https://azurezeng.com/
-  xjn819: https://blog.xjn819.com/
+  AzureZeng's Blog: https://azurezeng.com/
+  Xjn's Blog: https://blog.xjn819.com/
 #  ccc: /
 show_headindex_number: false #侧栏文章目录是否显示章节编号
 
 #文章
 excerpt: true #是否显示文章摘要，为 false 则显示全文
 first_image_as_thumbnail: false #自动取文章第一张图为特色图片
-article_meta: time|categories|read|readingtime #文章 Meta 信息列表，用竖线分隔开，可选: time 发布时间, edittime 编辑时间, categories 分类, read 阅读量，words 字数, readingtime 预计阅读时间
+article_meta: time|categories|words|readingtime #文章 Meta 信息列表，用竖线分隔开，可选: time 发布时间, edittime 编辑时间, categories 分类, read 阅读量，words 字数, readingtime 预计阅读时间
 reading_speed_cn: 300 #每分钟中文阅读字数，用于计算预计阅读时间
 reading_speed_en: 160 #每分钟英文阅读单词数，用于计算预计阅读时间
 donate_qrcode_url: '' #赞赏二维码地址，留空则不显示
