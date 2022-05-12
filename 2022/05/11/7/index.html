@@ -3,18 +3,25 @@
 <html class="article-header-style-default">
 <head>
 	
-	<title>分类 : Others - wxkj321&#39;s Blog</title>
+	<title>macOS平台软件集 - wxkj321&#39;s Blog</title>
 	<meta charset="utf-8">
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<meta property="og:type" content="website">
-<meta property="og:title" content="wxkj321&#39;s Blog">
-<meta property="og:url" content="http://example.com/categories/Others/index.html">
+	<meta name="description" content="排版借助了vim，Xcode真的不想用。 前言先说下博主的机器是自己配的，机器是入门级的i3-8100+H310丐板，8+8（后来组的双通），硬盘用的是SATA固态（有机会再去买块nvme的）。声卡用的板载的，网卡用有线的，显卡是核显，平时最多也就玩玩pvz，mc，足够了。U当时还是用了700大洋买的……扩展性比起苹果自家的机器来说强的太多了。虽然变成了不折不扣的黑苹果，但是挺好看的，而且用起来没">
+<meta property="og:type" content="article">
+<meta property="og:title" content="macOS平台软件集">
+<meta property="og:url" content="http://example.com/2022/05/11/7/index.html">
 <meta property="og:site_name" content="wxkj321&#39;s Blog">
+<meta property="og:description" content="排版借助了vim，Xcode真的不想用。 前言先说下博主的机器是自己配的，机器是入门级的i3-8100+H310丐板，8+8（后来组的双通），硬盘用的是SATA固态（有机会再去买块nvme的）。声卡用的板载的，网卡用有线的，显卡是核显，平时最多也就玩玩pvz，mc，足够了。U当时还是用了700大洋买的……扩展性比起苹果自家的机器来说强的太多了。虽然变成了不折不扣的黑苹果，但是挺好看的，而且用起来没">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/imgs/1.gif">
+<meta property="article:published_time" content="2022-05-11T11:50:00.000Z">
+<meta property="article:modified_time" content="2022-05-12T07:55:26.263Z">
 <meta property="article:author" content="wxkj321">
+<meta property="article:tag" content="macOS">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/imgs/1.gif">
 
 	<meta name="theme-color" content="#5e72e4">
 	<meta name="theme-color-rgb" content="94,114,228">
@@ -444,20 +451,6 @@
 
 <div class="page-information-card-container">
 	
-		
-<div class="page-information-card card bg-gradient-secondary shadow-lg border-0">
-	<div class="card-body">
-		<h3 class="text-black">分类 : Others </h3>
-		
-			<p class="text-black mt-3 mb-0 opacity-8">
-				<i class="fa fa-file-o mr-1"></i>
-				1 篇文章
-			</p>
-		
-	</div>
-</div>
-
-	
 </div>
 
 <div id="sidebar_mask"></div>
@@ -484,18 +477,39 @@
 		<div id="leftbar_part2" class="widget widget_search card bg-white shadow-sm border-0">
 			<div id="leftbar_part2_inner" class="card-body">
 				
-				<div class="nav-wrapper" style="padding-top: 5px; display:none; ">
+				<div class="nav-wrapper" style="padding-top: 5px;">
 	                <ul class="nav nav-pills nav-fill" role="tablist">
 						
+							<li class="nav-item sidebar-tab-switcher">
+								<a class="active show" id="leftbar_tab_catalog_btn" data-toggle="tab" href="#leftbar_tab_catalog" role="tab" aria-controls="leftbar_tab_catalog" no-pjax>文章目录</a>
+							</li>
+						
 						<li class="nav-item sidebar-tab-switcher">
-							<a class="active show" id="leftbar_tab_overview_btn" data-toggle="tab" href="#leftbar_tab_overview" role="tab" aria-controls="leftbar_tab_overview" no-pjax>站点概览</a>
+							<a class="" id="leftbar_tab_overview_btn" data-toggle="tab" href="#leftbar_tab_overview" role="tab" aria-controls="leftbar_tab_overview" no-pjax>站点概览</a>
 						</li>
 	                </ul>
 				</div>
 				<div>
 					<div class="tab-content" style="padding: 10px 10px 0 10px;">
 						
-						<div class="tab-pane fade text-center active show" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
+							<div class="tab-pane fade active show" id="leftbar_tab_catalog" role="tabpanel" aria-labelledby="leftbar_tab_catalog_btn">
+								<div id="leftbar_catalog"></div>
+								<script type="text/javascript">
+									$(function () {
+										$(document).headIndex({
+											articleWrapSelector: '#post_content',
+											indexBoxSelector: '#leftbar_catalog',
+											subItemBoxClass: "index-subItem-box",
+											itemClass: "index-item",
+											linkClass: "index-link",
+											offset: 80,
+										});
+									})
+								</script>
+								
+							</div>
+						
+						<div class="tab-pane fade text-center" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
 							<img id="leftbar_overview_author_image" src="/assets/img/1.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
 							<h6 id="leftbar_overview_author_name">wxkj321</h6>
 							<nav class="site-state">
@@ -593,20 +607,17 @@
 	<main id="main" class="site-main" role="main">
 		
 		
-		
-		
-		
 			
-	<article class="post card bg-white shadow-sm border-0 ">
+	<article class="post post-full card bg-white shadow-sm border-0 ">
 	<header class="post-header text-center">
 		
-		<a class="post-title" href="/2022/01/30/1/">博客终于搞定了</a>
+		<a class="post-title" href="/2022/05/11/7/">macOS平台软件集</a>
 		<div class="post-meta">
 			
 						
 						<div class="post-meta-detail post-meta-detail-time">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2022-1-30 9:27:00 | 编辑于 2022-5-10 15:10:33">2022-1-30 9:27
+							<time title="发布于 2022-5-11 19:50:00 | 编辑于 2022-5-12 15:55:26">2022-5-11 19:50
 							</time>
 						</div>
 					
@@ -615,7 +626,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-categories">
 							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
-							<a class="post-meta-detail-catagory-link" href="/categories/Others/">Others</a>
+							<a class="post-meta-detail-catagory-link" href="/categories/Softwares/">Softwares</a>
 						</div>
 					
 						
@@ -623,7 +634,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-words">
 							<i class="fa fa-file-word-o" aria-hidden="true"></i>
-							146 字
+							836 字
 						</div>
 					
 						
@@ -631,35 +642,175 @@
 						
 						<div class="post-meta-detail post-meta-detail-readingtime">
 							<i class="fa fa-hourglass-end" aria-hidden="true"></i>
-							1 分钟
+							2 分钟
 						</div>
 					
 		</div>
 		
 	</header>
 
-	<div class="post-content">
-		
-			
-				这波大概花了6个小时，一直掉css，现在终于弄明白了，现在搞定了。RSS也不太会弄，就不弄了，有空再整。↑已经整好了，虽然没啥用。这只是一个测试，也算是我这个小破站的第一篇博文。会写点学习上的东西，也记录日常碎碎念。顺便扯一句，上面的字数统计与阅读时长仅供娱乐，我看了下都是错的(笑)。当然，如果你们有什么方法，可以告诉我。↑破案了，是主题作者的锅
+	<div class="post-content" id="post_content">
+		<p>排版借助了vim，<s>Xcode真的不想用</s>。</p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>先说下博主的机器是自己配的，机器是入门级的i3-8100+H310丐板，8+8（后来组的双通），硬盘用的是SATA固态（有机会再去买块nvme的）。<br>声卡用的板载的，网卡用有线的，显卡是核显，平时最多也就玩玩pvz，mc，足够了。<br><s>U当时还是用了700大洋买的</s>……<br>扩展性比起苹果自家的机器来说强的太多了。<br><s>虽然变成了不折不扣的黑苹果</s>，<br>但是挺好看的，而且用起来没有什么问题。</p>
+<p>以及原本是以Windows为主的，但是MS在Windows 11上的骚操作已经让博主的心凉透了，而且系统正好又出了点问题，注册表不知道怎么挂了，好吧，那就备份好了直接全盘格掉了。</p>
+<p>目前macOS下用着一些优化软件。<br><s>基本办公软件总不用我说吧</s></p>
+<h3 id="1-Mos"><a href="#1-Mos" class="headerlink" title="1.Mos"></a>1.<a target="_blank" rel="noopener" href="https://github.com/Caldis/Mos">Mos</a></h3><p>博主已经用了5年多的黑苹果了。当然，鼠标都不是妙控鼠标。博主目前也懒得买妙控板。<br>一直困扰博主的一个问题就是鼠标滚动卡顿，移动倒没什么。<br>至于滚动反向的问题，博主一直是把自然滚动给他关掉的。<br><img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  data-original="/imgs/1.gif" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="1"><br>手动[:…:]<br>现在在gayhub上找到了Mos这个东西。<br>终于根除这个老毛病了。<br>不过，得把自然给他勾回来。<br>唯一美中不足的是dock栏的下载文件夹滚轮下翻反掉了。<br>不过也不管那么多了。</p>
 
-			
-		
+<h3 id="2-SwitchHosts"><a href="#2-SwitchHosts" class="headerlink" title="2.SwitchHosts"></a>2.<a target="_blank" rel="noopener" href="https://github.com/oldj/SwitchHosts">SwitchHosts</a></h3><p>这个不多说，上gayhub必备，除非你有梯子。<br><s>但是有时候梯子也不行</s>。<br>还有伪实时更新的<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts">hosts</a>。</p>
+<h3 id="3-cd-to"><a href="#3-cd-to" class="headerlink" title="3.cd to"></a>3.<a target="_blank" rel="noopener" href="https://github.com/jbtule/cdto">cd to</a></h3><p>经常用终端的肯定用得到，类似git bash here等。<br>编译用这个也很舒服。</p>
+<h3 id="4-Monitor-Control"><a href="#4-Monitor-Control" class="headerlink" title="4.Monitor Control"></a>4.<a target="_blank" rel="noopener" href="https://github.com/MonitorControl/MonitorControl">Monitor Control</a></h3><p>外接屏神器<br><s>即使你是白果，如果接着第三方外接屏，想要调亮度，也必须用显示器自己的亮度调节。</s><br>可是按着那个按键会让你自己很心疼，就怕摁坏了。<br>这个甚至还可以把屏幕变成零亮度。<br>其实一开始博主用的是NativeDisplayBrightness，但是挺麻烦的，因为首先安装前需要编译，而且博主还用了karabiner，导致要调亮度就必须按Fn，有点让人难受，而Monitor Control就不需要。于是乎博主就直接换上了Monitor Control。<br>据说这个还能调节显示器音频的音量，但是博主的显示屏是VGA的，是2006年的清华同方的，而且主板上的VGA是DP转的，鬼知道音量能不能调，博主是没测试过。</p>
+<h3 id="5-Karabiner"><a href="#5-Karabiner" class="headerlink" title="5.Karabiner"></a>5.<a target="_blank" rel="noopener" href="https://karabiner-elements.pqrs.org/">Karabiner</a></h3><p>改键神器，提升效率。</p>
+<h3 id="6-Pacifist"><a href="#6-Pacifist" class="headerlink" title="6.Pacifist"></a>6.Pacifist</h3><p>非开源，懒得给地址了。<br>不过这个确实很厉害。比如博主安装HP打印机驱动（pkg包），直接装是装不上的，只能用这玩意装。<br>还有别的功能，就不介绍了。</p>
+<h3 id="7-The-Unarchiver"><a href="#7-The-Unarchiver" class="headerlink" title="7.The Unarchiver"></a>7.The Unarchiver</h3><p>MAS上有，就不挂链接了。<br>macOS的自带解压不能解开rar，所以必须通过第三方&#x2F;虚拟机解决<br>不过这玩意还挺方便的。</p>
+<h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><p>差不多了，用的优化已经杂项都已经写了。<br>对博主来说，应该没有漏的了。<br><s>易用性都是靠调教出来的</s></p>
+
 	</div>
+
+	
+
+	
 
 	
 		<div class="post-tags">
 			<i class="fa fa-tags" aria-hidden="true"></i>
-			<a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/Others/" rel="tag">Others</a>
+			<a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/macOS/" rel="tag">macOS</a>
 		</div>
 	
 </article>
 
+	<div id="share_container">
+	<div id="share" data-initialized="true">
+		<a class="no-pjax icon-wechat" tooltip="分享到微信">
+			<button class="btn btn-icon btn-success">
+				<span class="btn-inner--icon"><i class="fa fa-weixin"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-douban" tooltip="分享到豆瓣">
+			<button class="btn btn-icon btn-primary" style="background: #209261;border: none;">
+				豆
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-qq" tooltip="分享到 QQ">
+			<button class="btn btn-icon btn-primary" style="background: #2196f3;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-qq"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-qzone" tooltip="分享到 QQ 空间">
+			<button class="btn btn-icon btn-primary" style="background: #ffc107;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-star"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-weibo" tooltip="分享到微博">
+			<button class="btn btn-icon btn-warning">
+				<span class="btn-inner--icon"><i class="fa fa-weibo"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-facebook" tooltip="分享到 Facebook">
+			<button class="btn btn-icon btn-primary" style="background: #283593;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-facebook"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-twitter" tooltip="分享到 Twitter">
+			<button class="btn btn-icon btn-primary" style="background: #03a9f4;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-telegram" href="https://telegram.me/share/url?url=http://example.com/2022/05/11/7/&text=macOS平台软件集" tooltip="分享到 Telegram">
+			<button class="btn btn-icon btn-primary" style="background: #42a5f5;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-telegram"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-copy-link" id="share_copy_link" tooltip="复制链接">
+			<button class="btn btn-icon btn-default">
+				<span class="btn-inner--icon"><i class="fa fa-link"></i></span>
+			</button>
+		</a>
+	</div>
+	<button id="share_show" class="btn btn-icon btn-primary" tooltip="分享">
+		<span class="btn-inner--icon"><i class="fa fa-share"></i></span>
+	</button>
+</div>
+<script type="text/javascript">
+	socialShare("#share", {
+	    title : 'macOS平台软件集',
+	    description : '排版借助了vim，Xcode真的不想用。
+前言先说下博主的机器是自己配的，机器是入门级的i3-810...',
+	    wechatQrcodeTitle : "分享到微信",
+	    wechatQrcodeHelper : '微信扫描二维码',
+	    source : 'http://example.com/2022/05/11/7/'
+	});
+	$("#share_show")[0].onclick = function(){
+		$("#share_container").addClass("opened");
+	};
+	$("#share_copy_link")[0].onclick = function(){
+		let input = document.createElement('input');
+		document.body.appendChild(input);
+		input.setAttribute("value", window.location.href);
+		input.setAttribute("readonly", "readonly");
+		input.setAttribute("style", "opacity: 0;mouse-events:none;");
+		input.select();
+		if (document.execCommand('copy')){
+			iziToast.show({
+				title: '链接已复制',
+				message: "链接已复制到剪贴板",
+				class: 'shadow',
+				position: 'topRight',
+				backgroundColor: '#2dce89',
+				titleColor: '#ffffff',
+				messageColor: '#ffffff',
+				iconColor: '#ffffff',
+				progressBarColor: '#ffffff',
+				icon: 'fa fa-check',
+				timeout: 5000
+			});
+		}else{
+			iziToast.show({
+				title: '复制失败',
+				message: "请手动复制链接",
+				class: 'shadow',
+				position: 'topRight',
+				backgroundColor: '#f5365c',
+				titleColor: '#ffffff',
+				messageColor: '#ffffff',
+				iconColor: '#ffffff',
+				progressBarColor: '#ffffff',
+				icon: 'fa fa-close',
+				timeout: 5000
+			});
+		}
+		document.body.removeChild(input);
+	};
+</script>
+
+
+	<div id="post_comment" class="card shadow-sm">
+		<div id="gitalk-container"></div>
+<script type="text/javascript">
+	var gitalk = new Gitalk({
+		clientID: 'f0d8ef888cb6684cc878',
+		clientSecret: 'e3c320233068bf638e7ee5ad7c13eb23a0e29617',
+		repo: 'blogmarks',
+		owner: 'wxkj123',
+		admin: ['wxkj123'],
+		id: location.pathname,
+		distractionFreeMode: false
+	})
+	gitalk.render('gitalk-container');
+</script>
+
+	</div>
 
 
 
 
+<div class="post-navigation card shadow-sm"><div class="post-navigation-item post-navigation-pre"></div><div class="post-navigation-item post-navigation-next"><span class="page-navigation-extra-text">下一篇 <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span><a href="/2022/02/03/5/" rel="next"> 图片解密</a></div></div>
 
+
+
+
+		
+		
+		
 		
 
 					<footer id="footer" class="site-footer card shadow-sm border-0">
