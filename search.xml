@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>图片解密</title>
+      <link href="/2022/02/03/5/"/>
+      <url>/2022/02/03/5/</url>
+      
+        <content type="html"><![CDATA[<p>　　首先我拿到了<a href="https://www.mcbbs.net/thread-1300340-1-1.html">一道题目</a> 。<br>　　解开这个压缩包就是个问题。我一开始认为是他mcbbs的uid，试了之后没成功。然后一想，uid么肯定是纯数字，遂暴力计算，花费不少时间。(经dengyu提醒，是他B站uid，这才搞定。)<br>　　然后，我拿到了一张图片。dengyu和我交流，一开始认为图上眼睛里面有点阵，遂安装了超级笨重的Matlab(30GB),结果平扫下来什么都没有。事实证明是我们想歪了。<br>　　此题应该用Stegsolve解，需要用惊人的洞察力发现左上角有猫腻，然后Extract出该层的16进制RGB数据，就直接解开了。<br>　　这应该是较为基础的题目，最主要的还是积累经验。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Computing </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Computing </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客终于搞定了</title>
+      <link href="/2022/01/30/1/"/>
+      <url>/2022/01/30/1/</url>
+      
+        <content type="html"><![CDATA[<p>这波大概花了6个小时，一直掉css，现在终于弄明白了，现在搞定了。<br><s>RSS也不太会弄，就不弄了，有空再整。</s><br>↑已经整好了，<s>虽然没啥用</s>。<br>这只是一个测试，也算是我这个小破站的第一篇博文。<br>会写点学习上的东西，也记录日常碎碎念。<br><s>顺便扯一句，上面的字数统计与阅读时长仅供娱乐，我看了下都是错的(笑)。当然，如果你们有什么方法，可以告诉我。</s><br>↑破案了，是<a href="https://github.com/solstice23/hexo-theme-argon/issues/14">主题作者的锅</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Others </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Others </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
